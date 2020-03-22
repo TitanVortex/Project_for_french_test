@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Votre petit guide de France</string>
+
+    <string name="string_btn_guide">Guide</string>
+    <string name="string_btn_helper">Assistante communication</string>
+    <string name="tv_reverso">Reverso traduction</string>
+    <string name="tv_francais_facile">Français facile</string>
+
+    <string-array name="places">
+        <item>Disneyland</item>
+        <item>Musée du Louvre</item>
+        <item>Le tour Eiffel</item>
+        <item>Parc Astérix </item>
+        <item>Arc de Triomphe </item>
+        <item>Sainte-Chapelle </item>
+        <item>Abbaye du Mont-Saint-Michel </item>
+    </string-array>
+
+    <string-array name="links">
+        <item>https://en.wikipedia.org/wiki/Disneyland_Paris</item>
+        <item>https://en.wikipedia.org/wiki/Louvre</item>
+        <item>https://en.wikipedia.org/wiki/Eiffel_Tower</item>
+        <item>https://en.wikipedia.org/wiki/Parc_Ast%C3%A9rix</item>
+        <item>https://en.wikipedia.org/wiki/Arc_de_Triomphe</item>
+        <item>https://en.wikipedia.org/wiki/Sainte-Chapelle</item>
+        <item>https://en.wikipedia.org/wiki/Mont-Saint-Michel_Abbey</item>
+
+    </string-array>
+
+    <string-array name="vocals">
+        <item>"Je m'ppelle (votre nom)."</item>
+        <item>Ma numesc (numele dumneavoastra).</item>
+        <item>My name is (your name).</item>
+
+    </string-array>
+
+    <string-array name="links_helper">
+        <item>https://www.reverso.net/text_translation.aspx?lang=FR</item>
+        <item>https://www.francaisfacile.com/</item>
+
+
+    </string-array>
+
+</resources>
