@@ -43,8 +43,6 @@ public class Guide extends AppCompatActivity {
 
 
 
-        MyAdapter adapter = new MyAdapter(this, getResources().getStringArray(R.array.places), images);
-        listView.setAdapter(adapter);
 
 
         /**
@@ -74,6 +72,12 @@ public class Guide extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+            MyAdapter adapter = new MyAdapter(this, getResources().getStringArray(R.array.places), images);
+            listView.setAdapter(adapter);
+
+
     }
 
     class MyAdapter extends ArrayAdapter<String> {
@@ -95,7 +99,7 @@ public class Guide extends AppCompatActivity {
         @Override
         public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
             LayoutInflater layoutInflater = (LayoutInflater)getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            @SuppressLint("ViewHolder") View item_view = layoutInflater.inflate(R.layout.item_view, parent, false);
+            View item_view = layoutInflater.inflate(R.layout.item_view, parent, false);
             ImageView images = item_view.findViewById(R.id.image);
             TextView myTitle = item_view.findViewById(R.id.textView1);
 
