@@ -17,9 +17,6 @@ public class PlaceDetails extends AppCompatActivity {
 
         myWebView = new WebView(this);
 
-
-
-
         Bundle data = getIntent().getExtras();
 
         WebSettings myWebSettings= myWebView.getSettings();
